@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   env: {
     // For Local Server
-    API_PROD_URL: "ekartos-admin-rmu7b5lwk-sujon3537s-projects.vercel.app/api/",
+    API_PROD_URL: "http://localhost:3000/api/",
   
     //  API_PROD_URL: "https://fastkart-admin-json.vercel.app/api/",
 
