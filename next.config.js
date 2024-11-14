@@ -2,12 +2,8 @@
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
-  env: {
-    // For Local Server
-    
-  
-    //  API_PROD_URL: "https://ekartos-admin.vercel.app/api/",
-
+  env: {  
+     API_PROD_URL: "https://ekartos-admin.vercel.app/api/",
   },
   redirects: async () => {
     return [
