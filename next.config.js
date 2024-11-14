@@ -4,13 +4,10 @@ const nextConfig = {
   swcMinify: true,
   env: {
     // For Local Server
-    API_PROD_URL: "http://localhost:3000/api/",
+    
   
-    //  API_PROD_URL: "https://fastkart-admin-json.vercel.app/api/",
+    //  API_PROD_URL: "https://ekartos-admin.vercel.app/api/",
 
-    // API_PROD_URL: "http://admin.bdhaat.com.bd/api/",
-
-    // API_PROD_URL: "https://laravel.pixelstrap.net/fastkart/api",
   },
   redirects: async () => {
     return [
